@@ -7,16 +7,14 @@
 <body>
   <h1>フォームの操作</h1>
   <form action="">
-    <label for="name">氏名:</label><br />
-    <div>
-      <input id="name" name="name" type="text" size="20" />
-    </div>
-    <div>
-      <label for="profile">プロフィール:</label><br />
-      <textarea id="profile" name="profile"  cols="30" rows="4"></textarea>
-    </div>
-    <input id="btn" type="button" value="送信">
+    <label for="season">季節:</label><br />
+    <select name="season" id="season">
+      <option value="spring">春</option>
+      <option value="summer">夏</option>
+      <option value="autumn">秋</option>
+      <option value="winter">冬</option>
+    </select>
   </form>
-  <script src="js/form_text.js"></script>
+  <script src="js/form_select.js"></script>
 </body>
 </html>
