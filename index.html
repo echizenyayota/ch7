@@ -8,10 +8,19 @@
   <h1>フォームの操作</h1>
   <form action="">
     <div>
-      お知らせを希望しますか？ : <br/>
-      <label><input type="checkbox" name="mail" id="mail" value="お知らせ希望">希望する</label>
+      お使いのOSは？ : <br/>
+      <label>
+        <input type="checkbox" name="os" value="windows">Windows
+      </label>
+      <label>
+        <input type="checkbox" name="os" value="mac">macOS
+      </label>
+      <label>
+        <input type="checkbox" name="os" value="unix">Unix
+      </label>
     </div>
+    <input type="button" id="btn" value="送信">
   </form>
-  <script src="js/form_check.js"></script>
+  <script src="js/form_check_multi.js"></script>
 </body>
 </html>
