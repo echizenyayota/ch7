@@ -6,20 +6,15 @@
 </head>
 <body>
   <h1>フォームの操作</h1>
-  <form action="">
+  <form>
     <div>
-      お使いのOSは？ : <br/>
-      <label>
-        <input type="radio" name="os" value="windows">Windows
-      </label>
-      <label>
-        <input type="radio" name="os" value="mac">macOS
-      </label>
-      <label>
-        <input type="radio" name="os" value="unix">Unix
-      </label>
+      <label>お使いのOSは？</label>
+      <select id="os" multiple size="3">
+        <option value="windows">Windows</option>
+        <option value="macos">Mac OS</option>
+        <option value="unix">Unix</option>
+      </select> 
     </div>
-    <input type="button" id="btn" value="送信">
   </form>
   <script src="js/form_radio_set.js"></script>
 </body>
