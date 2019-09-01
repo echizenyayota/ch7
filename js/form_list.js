@@ -1,6 +1,6 @@
 let getListBox = function(name) {
   let result = [];
-  let elems = document.getElementById(name).options;
+  let elems = document.getElementById('os').options;
 
   for (let i = 0; i < elems.length; i++) {
     if (elems[i].selected) {
